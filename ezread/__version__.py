@@ -8,7 +8,9 @@
 #   \_______/|________/|__/       \_______/ \_______/ \_______/
 
 __title__ = "ezread"
-__description__ = "Test"
+__description__ = (
+    "ezread provides a ridiculously simple way to fetch items within the JSON list."
+)
 __url__ = "https://github.com/csurfer/ezread"
 __version__ = "0.0.1"
 __author__ = "Vishwas B Sharma"
