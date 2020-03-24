@@ -13,6 +13,7 @@ Features
 * Ridiculously simple interface.
 * Known JSON format for indexing helps understand what we are fetching and how.
 * Easily procure relevant data from the JSON list for further processing.
+* Natively supported nested indexing.
 
 Setup
 -----
