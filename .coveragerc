@@ -1,0 +1,2 @@
+[report]
+omit = */ezread/__version__.py

@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+# Command to install dependencies.
+install:
+  - "pip install -r requirements.txt"
+  - "pip install coveralls"
+# Command to run tests.
+script:
+  - "coverage run --source=ezread py.test"
+after_success:
+  - "coveralls"
