@@ -1,2 +1,4 @@
 [report]
 omit = */ezread/__version__.py
+       */ezread/__init__.py
+       */ezread/commandline.py
