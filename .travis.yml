@@ -9,6 +9,6 @@ install:
   - "pip install coveralls"
 # Command to run tests.
 script:
-  - "coverage run -m pytest --source=ezread"
+  - "coverage run --source=ezread -m py.test"
 after_success:
   - "coveralls"
